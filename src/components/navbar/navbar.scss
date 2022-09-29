@@ -1,0 +1,29 @@
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 0.5px solid grey;
+    font-size: 15px;
+    
+    .navbar-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    
+        .navbar-search{
+            display: flex;
+            align-items: center;
+        }
+    
+        .navbar-icons{
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+}
