@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className='navbar-wrapper'>
           <div className='navbar-search'>
               <input type='text' placeholder='Search' />
-              <SearchOutlinedIcon/>
+              <SearchOutlinedIcon className='search-icon'/>
           </div>
 
           <div className='navbar-icons'>

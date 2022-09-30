@@ -18,11 +18,34 @@
         .navbar-search{
             display: flex;
             align-items: center;
+            border: 0.5px solid grey;
+            border-radius: 8px;
+            padding: 5px;
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                &::placeholder{
+                    font-size: 13px;
+                }
+            }
+            .search-icon{
+                color: rgb(86, 17, 150);
+            }
+
         }
     
         .navbar-icons{
             display: flex;
             align-items: center;
+            gap:30px;
+
+            .navbar-icon{
+                cursor: pointer;
+                color: rgb(86, 17, 150);
+                font-size: 20px;
+            }
         }
         
     }
