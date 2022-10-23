@@ -5,10 +5,24 @@
     .home-container {
         flex: 6;
 
-        .widgets{
+        .widgets, .charts{
             display: flex;
             gap: 20px;
             padding: 20px;
         }
+        .user-list-container{
+            // display: flex;
+            // gap: 20px;
+            padding: 20px;
+            margin: 20px;
+
+
+            .user-list-title{
+                font-weight: 600;
+                color: gray;
+                margin-bottom: 15px;
+            }
+        }
+        
     }
 }

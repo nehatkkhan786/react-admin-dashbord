@@ -4,10 +4,15 @@ import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantity
 import PersonIcon from '@mui/icons-material/Person';
 import InventoryIcon from '@mui/icons-material/Inventory';
 
+import {useNavigate} from 'react-router-dom'
+
 
 
 
 const Sidebar = () => {
+
+  const navigate = useNavigate()
+  
   return (
     <div className='sidebar'>
         <div className='sidebar-top'>
@@ -17,9 +22,9 @@ const Sidebar = () => {
         <div className='sidebar-center'>
             <ul>
                
-                <li><DashboardIcon className='icon'/><span>Dashboard</span></li>
+                <li onClick={()=>navigate('/')}><DashboardIcon className='icon'/><span>Dashboard</span></li>
                 <li><ProductionQuantityLimitsIcon  className='icon'/><span>Products</span></li>
-                <li><PersonIcon className='icon' /><span>Users</span></li>
+                <li onClick={()=>navigate('/users')}><PersonIcon className='icon' /><span>Users</span></li>
                 <li><InventoryIcon className='icon' /><span>Orders</span></li>
             </ul>
         </div>

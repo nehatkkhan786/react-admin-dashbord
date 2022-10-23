@@ -1,7 +1,9 @@
 .sidebar{
     flex: 1;
-    border-right: 0.5px solid grey;
+	border-right: 0.5px solid grey;
     min-height: 100vh;
+
+
     .sidebar-top{
         display: flex;
         align-items: center;
@@ -9,7 +11,7 @@
         height: 50px;
     }
     .logo{
-        font-size: 25px;
+        font-size: 18px;
         font-weight: bold;
         color: rgb(86, 17, 150);
     }
@@ -32,7 +34,7 @@
                 align-items: center;
                 gap: .5rem;
                 padding: 6px;
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 500;
                 cursor: pointer;
                 margin-bottom: 20px;
